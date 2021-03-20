@@ -11,24 +11,25 @@ body{
 }
 
 .menu{
+	position:sticky; 
 	list-style:none; 
 	float:left; 
 	border-top: 4px solid RGB(97, 186, 229);
 	font-family: Calibri, Tahoma, Arial, sans-serif;
 	font-size: 26px;
 	background: #000;
-	width: 100%;
+	width: 97.85%;
 	color: #fff;
 	}
 	
 
 .menu li{
-	position:relative; 
 	float:left; 
 	font-size: 26px;
 	background: RGB(97, 186, 229);
 	border-right:1px solid RGB(97, 186, 229); 
 	color:#fff;
+	position:sticky;
 	}
 	
 
@@ -38,6 +39,7 @@ body{
 	padding:5px 10px; 
 	display:block;
 	background: #000 ;
+	position:sticky;
 	}
 
 .menu li a:hover{
@@ -62,8 +64,7 @@ body{
 }
 
 #main-footer {
-    width: 100%;
-    height: auto;
+    width: 97.85%;
     position: relative;
     display: table;
     padding: 20px;
@@ -74,19 +75,18 @@ body{
 	color: #fff;
 }
 .noticias{
-	margin: 150px 0px 40px 20px ;
+	position:relative;
+	float:center;
+	margin: 0px 600px 0px 300px ;
 	border-top: 3px double #000;
 	border-bottom: 3px double #000;
-	height: auto;
-	width: auto;
+	height: 600px;
 	list-style: none;
 }
 .noticias li{
 	position:relative;
 	float: left;
-	padding: 10px;
-	margin: 10px;
-	display: block;
+	margin: 0px 350px 0px 350px ;
 }
 
 .noticias img{
@@ -95,9 +95,7 @@ body{
 	width: 250px;
 }
 .noticias ul li ul{
-	padding: 0px;
-	margin: -20px;
-	position: relative;
+	margin: 0px 350px 0px 350px ;
 }
 .gastronomia a, .cinema a, .teatro a, .intercambio a{
 	        text-decoration:none;
@@ -105,6 +103,7 @@ body{
 .gastronomia, .cinema , .agenciaviagem, .eventos, .quemsomos, .teatro, .intercambio   {
 	text-align: center;
         }
+
 .label {
 width:85px;
 background-color:#000;
@@ -127,30 +126,37 @@ background-color:#000;
 	float: left;
 	width: 25%;
 	border-radius: 10px 0px 10px 0px;
-	
 
 }
+
+#redes-sociais img{
+	margin: 0px 20px 20px 20px ;
+	width: 45px;
+}
+
 #redes-sociais p{
 	font-family: Calibri;
 	font-weight: bold; 
 	text-align: center;
 	color: #000;
-
 }
+
 .mySlides, w3-content, w3-btn-floating {
-position: center;
+	float: left;
+	margin: 0px 350px 0px 350px ;
 }
 
 #panel, #panel2,#panel3,#flip{
- padding: 5px;
+	width: 800px;
+	margin: 0px 0px 0px 350px ;
     text-align: center;
       border: solid 1px #c3c3c3;
     background-color: RGB(97, 186, 229);
-  
+ 
 }
 
 #panel, #panel2,#panel3 {
-    padding: 5px;
+	float: left;
     display: none;
 }
 
